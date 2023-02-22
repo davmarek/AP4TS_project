@@ -1,0 +1,13 @@
+ID: HR_001
+Name: Link to "A-TÝM"
+Description: Check if the hero section contains a tile with a correct link
+Preconditions:
+  - Chromium version 110+ based browser
+  - Open website: https://hbcmalenovice.cz
+Steps:
+  - Check if page contains a tile (link) with "A-TÝM" inside
+  - Click the tile (link)
+  - Wait for the page to load
+Expected result:
+  - Loaded page address should be https://hbcmalenovice.cz/aktuality.php?cat=atym
+  - Loaded page should contain heading "AKTUALITY" and a link with text "ZRUŠIT FILTR"

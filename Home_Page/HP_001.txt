@@ -1,0 +1,12 @@
+ID: HP_001
+Name: Contains header, navigation and footer
+Description: Check the home page contains header, navigation and footer elements
+Preconditions:
+  - Chromium version 110+ based browser
+  - Open website: https://hbcmalenovice.cz
+Steps:
+  - Check if element <header> is visible
+  - Check if element <nav> is visible
+  - Scroll all the way down
+  - Check if element <footer> is visible
+Expected result: Header, navigation and footer should be visible

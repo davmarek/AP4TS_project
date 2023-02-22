@@ -1,0 +1,12 @@
+ID: HA_003
+Name: Next match date not empty
+Description: Check if the date of next match isn't empty
+Preconditions:
+  - Chromium version 110+ based browser
+  - Open website: https://hbcmalenovice.cz
+Steps:
+  - Scroll down until "DALŠÍ ZÁPAS" heading is visible
+  - Find a span with class "datum"
+  - Confirm the text contains a date
+Expected result:
+  - Element with a date inside should be visible

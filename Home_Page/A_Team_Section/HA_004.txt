@@ -1,0 +1,12 @@
+ID: HA_004
+Name: Scoreboard table contains "HBC Malenovice"
+Description: Score board table should contain a cell with text "HBC Malenovice"
+Preconditions:
+  - Chromium version 110+ based browser
+  - Open website: https://hbcmalenovice.cz
+Steps:
+  - Scroll down until "TABULKA - 1. NÁRODNÍ HOKEJBALOVÁ LIGA - JIH" heading is visible
+  - Find a cell within the table with text "HBC Malenovice"
+Expected result:
+  - One of the cells should contain text "HBC Malenovice"
+  - Parrent "th" element of that cell should have "highlight" class (text should be bold)

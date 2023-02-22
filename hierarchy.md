@@ -1,0 +1,58 @@
+- (HP) Home_Page Suite
+  - HP_001 Contains header, navigation and footer
+  - (HR) Hero_Section Suite
+    - HR_001 Link to "A-TÝM"
+    - HR_002 Link to "AKTUALITY"
+  - (HA) A_Team_Section Suite
+    - HA_001 Next match team names not duplicate
+    - HA_002 Next match team names include "HBC Malenovice"
+    - HA_003 Next match date not empty
+    - HA_004 Scoreboard table contains "HBC Malenovice"
+    - HA_005 First post link works
+    - HA_006 Second post link works
+  - (HH) Main_partners_Section Suite
+    - HH_001 Section contains images
+    - HH_002 Section links work
+  - (HM) Mladez_Section Suite
+    - HM_001 Section contains 3 links
+    - HM_002 All posts have header and date
+    - HM_003 First post link works
+    - HM_004 Second post link works
+    - HM_005 Third post link works
+  - (HO) Other_partners_Section Suite
+    - HO_001 Section contains images
+- (HD) Header_Component Suite
+  - HD_001 Components contains "HBC MALENOVICE"
+  - HD_002 Components contains "HOKEJBALOVÝ KLUB"
+- (NV) Navigation_Component Suite
+  - NV_001 Hovering on link displays sub-links
+  - NV_002 Clicking link with sub-links stays on page
+  - NV_003 "AKTUALITY" link works
+  - NV_003 Navigating to "AKTUALITY" and back works
+  - (NV_005) Club_Links Suite
+    - NV_005_01 "VEDENÍ" link works
+    - NV_005_02 "TRENÉŘI" link works
+    - NV_005_03 "ZÁKLADNÍ INFORMACE" link works
+    - NV_005_04 "HISTORIE" link works
+    - NV_005_05 "PARTNEŘI" link works
+    - NV_005_06 "MULTIMÉDIA" link works
+    - NV_005_07 "DOKUMENTY KE STAŽENÍ" link works
+  - (NV_006) A_Team_Links Suite
+    - NV_006_01 "TABULKA A STATISTIKA" link works
+    - NV_006_02 "ROZPIS A VÝSLEDKY" link works
+    - NV_006_03 "SOUPISKA" link works
+    - NV_006_04 "AKTUALITY" link works
+  - (NV_007) Mladez_Links Suite
+    - NV_007_01 "MINI PŘÍPRAVKA" link works
+    - NV_007_02 "PŘÍPRAVKA" link works
+    - NV_007_03 "ML. ŽÁCI" link works
+    - NV_007_04 "ST. ŽÁCI" link works
+    - NV_007_05 "DOROST" link works
+    - NV_007_06 "JUNIOR" link works
+- (FT) Footer_Component Suite
+  - FT_001 Component contains "HBC Malenovice, z.s."
+  - FT_002 Component contains link to Facebook
+  - FT_003 Component contains link to Twitter
+  - FT_004 Component contains link to YouTube
+  - FT_005 Component contains link to Instagram
+  - FT_006 Component contains link to "davidmarek.8u.cz"

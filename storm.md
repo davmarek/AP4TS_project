@@ -1,0 +1,81 @@
+- Homepage
+  - HP_001 has header, nav, footer
+  - Hero
+    - HR_001 clicking tile with "A-TÝM" should lead to its page
+    - HR_002 clicking tile with "AKTUALITY" should lead to its page
+  - AKTUALITY A-TÝM
+    - HA_001 section "Další zápas" should not contain the name of one team twice
+    - HA_002 section "Další zápas" should contain the name "HBC Malenovice"
+    - HA_003 section "Další zápas" date should not be empty
+    - HA_004 scoreboard table should contain the name "HBC Malenovice"
+    - HA_005 the first blog post should lead to dedicated page
+    - HA_006 the second blog post should lead to dedicated page
+  - HLAVNÍ PARTNEŘI
+    - HH_001 the section "HLAVNÍ PARTNEŘI" should contain at least one image
+    - HH_002 all the links should lead to a website successfuly
+  - AKTUALITY MLÁDEŽ
+    - HM_001 section should contain 3 anchors
+    - HM_002 all the post cards should have a header and date
+    - HM_003 the first link should function
+    - HM_004 the second link should function
+    - HM_005 the third link should function
+  - DALŠÍ PARTNEŘI
+    - HD_001 section should contain >1 images
+
+- Header
+    - HD_001 should contain "HBC MALENOVICE"
+    - HD_002 should contain "HOKEJBALOVÝ KLUB"
+- Navigation
+  - NV_001 hovering over links with child links should display child links
+  - NV_002 clicking links with child links shouln't navigate to another page
+  - NV_003 clicking "AKTUALITY" should navigate to that page
+  - NV_004 clicking "AKTUALITY" and than the home icon should navigate back to home
+  - test child links on "KLUB" (from homepage)
+    - NV_005_01 vedení
+    - NV_005_02 trenéři
+    - NV_005_03 základní informace
+    - NV_005_04 historie
+    - NV_005_05 partneři
+    - NV_005_06 multimédia
+    - NV_005_07 dokumenty ke stažení
+  - test child links on "A-TÝM" (from homepage)
+    - NV_006_01 Tabulka a statistika -> h2 "TABULKA"
+    - NV_006_02 Rozpis a výsledky -> h2 "1. NÁRODNÍ HOKEJBALOVÁ LIGA – JIH"
+    - NV_006_03 Soupiska -> h1 "SOUPISKA A-TÝM"
+    - NV_006_04 Aktuality
+  - test all the links of "MLÁDEŽ" from homepage
+    - NV_007_01 mini přípravka
+    - NV_007_02 přípravka
+    - NV_007_03 ml. žáci
+    - NV_007_04 st. žáci
+    - NV_007_05 dorost
+    - NV_007_06 junior
+- Footer
+  - FT_001 contains HBC Malenovice, z.s.
+  - FT_002 has a link to facebook
+  - FT_003 has a link to twitter
+  - FT_004 has a link to youtube
+  - FT_005 has a link to instagram
+  - FT_006 has a link to "davidmarek.8u.cz"
+- Aktuality Page
+  - AK_001 has header, nav, footer
+  - AK_002 has heading "AKTUALITY"
+  - AK_003 has all the filters/links (total 8)
+  - AK_004 check if the first 4 blog posts have not empty heading, date and have a link
+  - AK_005 count all the blog posts; click some filter; count all blog posts; compare (second should be smaller or equal)
+  - AK_006 navigate to all the filters and page should contain "ZRUŠIT FILTR"
+  - AK_007 save heading of first post > navigate to that post > post page should contain that heading 
+- Tabulka a statistiky (http://hbcmalenovice.cz/html/atym/tabulky.php)
+  - TS_001 has header, nav, footer
+  - TS_002 has heading "1. NÁRODNÍ HOKEJBALOVÁ LIGA – JIH"
+  - TS_003 table should contain name "HBC Malenovice"
+  - TS_004 save num of points (last col) > navigate home > compare number of points (should match)
+  - TS_005 -||- for number of matches
+  - TS_006 -||- for number of victories
+  - TS_007 -||- for number of loses
+- Rozpis & výsledky
+  - RV_001 has header, nav, footer
+  - RV_002 has heading "1. NÁRODNÍ HOKEJBALOVÁ LIGA – JIH"
+  - RV_003 next match should contain "HBC Malenovice"
+  - RV_004 home page > next match (save info - date, teams,...) > should be on the "Rozpis..." page
+  - RV_005 if match has "-" in result -> it should have _green_ or _red_ class

@@ -1,0 +1,11 @@
+ID: HA_001
+Name: Next match team names not duplicate
+Description: Check if the names of the teams in next match component are not the same
+Preconditions:
+  - Chromium version 110+ based browser
+  - Open website: https://hbcmalenovice.cz
+Steps:
+  - Scroll down until "DALŠÍ ZÁPAS" heading is visible
+  - Compare the names of teams in the spans with class "team"
+Expected result:
+  - Names of the teams should not be the same

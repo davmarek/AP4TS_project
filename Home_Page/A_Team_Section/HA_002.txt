@@ -1,0 +1,11 @@
+ID: HA_002
+Name: Next match team names include "HBC Malenovice"
+Description: Check if one of the team names is "HBC Malenovice"
+Preconditions:
+  - Chromium version 110+ based browser
+  - Open website: https://hbcmalenovice.cz
+Steps:
+  - Scroll down until "DALŠÍ ZÁPAS" heading is visible
+  - Find a span with class "team" that has "HBC Malenovice" inside
+Expected result:
+  - One of the spans should contain text "HBC Malenovice"
