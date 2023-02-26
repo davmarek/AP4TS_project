@@ -1,4 +1,10 @@
 .DS_Store
 **/*.zip
-AT/*.html
-AT/*.xml
+
+log.html
+output.xml
+report.html
+
+AT/log.html
+AT/output.xml
+AT/report.html
