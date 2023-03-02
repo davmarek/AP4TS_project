@@ -1,23 +1,22 @@
 *** Settings ***
-Documentation       Simple example using SeleniumLibrary.
-
-Library             SeleniumLibrary
-Resource            Resources/PageObjects.resource
+Library     SeleniumLibrary
+Resource    Resources/PageObjects.resource
 
 
 *** Variables ***
-${LOGIN URL}    http://hbcmalenovice.cz
+${LOGIN URL}    https://hbcmalenovice.cz/
 ${BROWSER}      Chrome
 
 
 *** Test Cases ***
 Just Testing
-    Log To Console    ${PO_Header_HBC}
-    Open Browser To Home Page
+    [Setup]    Open Browser    ${LOGIN URL}    ${BROWSER}
 
+    Wait Until Element Is Visible    ${PO_Header_HBC}
 
-*** Keywords ***
-Open Browser To Home Page
-    Set Selenium Speed    0.2
-    Open Browser    ${LOGIN URL}    ${BROWSER}
-    Sleep    10s
+    Wait Until Element Is Visible    ${PO_Hero_Atym}
+    Click Element    ${PO_Hero_Atym}
+
+    Wait Until Element Is Visible    ${PO_Aktuality_Heading}
+
+    [Teardown]    Run Keywords    Close Browser

@@ -1,6 +1,10 @@
 .DS_Store
 **/*.zip
 
+**/*.jpg
+**/*.jpeg
+**/*.png
+
 log.html
 output.xml
 report.html

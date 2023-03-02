@@ -56,3 +56,19 @@
   - FT_004 Component contains link to YouTube
   - FT_005 Component contains link to Instagram
   - FT_006 Component contains link to "davidmarek.8u.cz"
+- (AK) Aktuality_Page Suite
+  - AK_001 Contains header, navigation and footer
+  - AK_002 Contains heading "AKTUALITY"
+  - AK_003 Contains all filters (links)
+  - AK_004 First 4 posts have heading, date and link
+  - AK_005 Post count with filter is less or equal than without
+  - AK_006 Filter links should lead to page with "ZRUŠIT FILTR"
+  - AK_007 Post should have correct heading when navigated
+- (TS) Tabulka_a_statisktiky_Page Suite
+  - TS_001 Contains header, navigation and footer
+- (RV) Rozpis_a_výsledky_Page Suite
+  - RV_001 Contains header, navigation and footer
+  - RV_002 Contains heading "1. NÁRODNÍ HOKEJBALOVÁ LIGA – JIH"
+  - RV_003 Next Match section contains "HBC Malenovice"
+  - RV_004 Home page and RV page data matches
+  - RV_005 Correct classes for win and lose
